@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+"""
+@Author: MojtabaMonfared
+All Right Reserved
+2010-2016 MojtabaMonfared
+Under GNU AGPL v3 2016*
+Available on Github*
+"""
 
 from utils import utils
 import os
@@ -91,3 +98,5 @@ def bitly(message):
 
 
 bot.polling(none_stop=True)
+
+#  MojtabaMonfared

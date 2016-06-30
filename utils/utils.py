@@ -1,4 +1,12 @@
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+"""
+@Author: MojtabaMonfared
+All Right Reserved
+2010-2016 MojtabaMonfared
+Under GNU AGPL v3 2016*
+Available on Github*
+"""
 
 import telebot
 import telpot
@@ -17,7 +25,7 @@ from utils import *
 botToken = ''
 bot = telebot.TeleBot(botToken)
 
-# sudo = '132640720'
+sudo = 132640720
 bot_id = bot.get_me().id
 log = '@BuildTwistLog'
 
