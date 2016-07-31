@@ -49,7 +49,7 @@ def process_token_handler(message):
 	user.token = token
 	check = re.search(r'[\d]{9}:AAH.+', message.text).group()
 	if check in message.text:
-		os.system("python home\bots\1\bot.py {}".format(check))
+		os.system('python home\bots\1\bot.py {}'.format(check))
 		try:
 			token = check
 			bot_reg = telebot.TeleBot(token)
